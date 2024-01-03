@@ -1,0 +1,36 @@
+
+# para saber a posiçao de um item em uma lista 
+
+produtos=['faca','garfo','oculos','lapis','caneta','perfume','garrafa']
+presos=['90','10','23','43','78','4','67']
+
+e=produtos.index('lapis')
+print(e)
+
+# para descobrir presso precissa criar um codigo com relaçao do com o indice com o produto
+
+r=presos[e]
+print(r)
+
+
+# para adicionar um produto a uma lista e remover 
+
+produtos.append('geledeira')
+print(produtos)
+
+produtos.remove('caneta')
+print(produtos)
+
+
+# para sabr o tamanho da lista
+
+tamanho=len(produtos)
+print(tamanho)
+
+
+# para saber o maximo e o minimo 
+
+a=max(presos)
+print(a)
+b=min(presos)
+print(b)
